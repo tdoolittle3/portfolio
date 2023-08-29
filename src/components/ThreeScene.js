@@ -56,11 +56,12 @@ const ThreeScene = () => {
       };
   
       animate();
-  
+      
+      let mountRefCurrent = mountRef.current;
       // Clean up
       return () => {
         window.removeEventListener('resize', handleResize);
-        mountRef.current.removeChild(renderer.domElement);
+        mountRefCurrent.removeChild(renderer.domElement);
   
         // Dispose resources
         geometry.dispose();

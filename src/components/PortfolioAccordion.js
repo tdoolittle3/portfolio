@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './PortfolioAccordion.css'; // Add your own CSS file for styling
 
 const PortfolioAccordion = () => {
