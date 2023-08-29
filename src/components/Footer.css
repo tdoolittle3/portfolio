@@ -1,0 +1,39 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .contact-info, .github-link, .tech-stack {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .logo-container img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
