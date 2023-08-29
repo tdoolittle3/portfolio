@@ -4,18 +4,18 @@ const PortfolioAccordion = () => {
     const projects = [
         {
           title: 'Simulation',
-          description: 'Developed a 2D platformer game using Unity and C#. Implemented player controls, enemy AI, and level design.',
-          technologies: 'Unity, C#',
+          description: 'Developing cutting-edge software solutions that simulate and optimize various aspects of railroad operations.',
+          technologies: 'Unity, C#, C++',
         },
         {
           title: 'Unified Communications',
-          description: 'Created an AR app that overlays virtual objects onto the real world using Unity\'s AR Foundation and C# scripting.',
-          technologies: 'Unity, AR Foundation, C#'
+          description: 'Building large real time communication networks and media applications.',
+          technologies: 'VoIP, FreeSWITCH, TCP/IP, Alexa'
         },
         {
           title: 'DevOps',
-          description: 'Designed and programmed a simulation tool in C# to model real-world physics scenarios and visualize the results.',
-          technologies: 'C#',
+          description: 'Capable of building software pipelines to fit given needs.',
+          technologies: 'Git CI, Azure, AWS, Sonar',
         },
       ];
     
